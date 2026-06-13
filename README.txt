@@ -69,3 +69,8 @@ TestPerformance.java
 
 		LinkedList because nodes can be easily readjusted to point to other elements, making adding and removing nodes cost-efficient O(1) --> efficient. In contrast, after
 		removing the element at index 0, ArrayLists require shifting the elements to the left O(n) --> less efficient.
+
+    which of the two lists performs better as the size increases?
+        linkedLists performance is better in ListAddRemove while in listAccess ArrayList have a better performance.
+        Overall, ArrayList performs best because it maintains a consistent time while linkedList degrade dramatically
+        to 4 seconds when the size is 10000.
